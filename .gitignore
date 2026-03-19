@@ -1,0 +1,36 @@
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+out/
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive files
+*.pem
+*.key
+*.pub
+private_key.json
